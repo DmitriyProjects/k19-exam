@@ -3,9 +3,20 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="shortcut icon" href="favicons/favicon.ico">
-
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  <link rel="manifest" href="favicons/site.webmanifest">
+  <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#189bc1">
+  <meta name="apple-mobile-web-app-title" content="NovaBoard">
+  <meta name="application-name" content="NovaBoard">
+  <meta name="msapplication-TileColor" content="#b91d47">
+  <meta name="theme-color" content="#ffffff">
+  
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/award-slider.css">
   <title>Nova Board - Экструдированный пенополистирол</title>
 </head>
 
@@ -14,14 +25,30 @@
   <header class="header">
     <div class="container-1">
       <ul class="menu">
-        <li><a class="nav-link is-active" href="#">Главная</a></li>
-        <li><a class="nav-link" href="#">О компании</a></li>
-        <li><a class="nav-link" href="#">Вакансии</a></li>
-        <li><a class="nav-link" href="#">Продукция</a></li>
-        <li><a class="nav-link" href="#">Фотогалерея</a></li>
-        <li><a class="nav-link" href="#">Новости</a></li>
-        <li><a class="nav-link" href="#">Статьи</a></li>
-        <li><a class="nav-link" href="#">Контакты</a></li>
+        <li class="menu-item">
+          <a class="nav-link is-active" href="#">Главная</a>
+        </li>
+        <li class="menu-item">
+          <a class="nav-link" href="#">О компании</a>
+        </li>
+        <li class="menu-item">
+          <a class="nav-link" href="#">Вакансии</a>
+        </li>
+        <li class="menu-item">
+          <a class="nav-link" href="#">Продукция</a>
+        </li>
+        <li class="menu-item">
+          <a class="nav-link" href="#">Фотогалерея</a>
+        </li>
+        <li class="menu-item">
+          <a class="nav-link" href="#">Новости</a>
+        </li>
+        <li class="menu-item">
+          <a class="nav-link" href="#">Статьи</a>
+        </li>
+        <li class="menu-item">
+          <a class="nav-link" href="#">Контакты</a>
+        </li>
       </ul>
     </div>
   </header>
@@ -126,7 +153,7 @@
         <img src="image/logo-2.png" alt="">
       </div>
 
-      <h2>Экструдированный пенополистирол</h2>
+      <h2 class="h2-size">Экструдированный пенополистирол</h2>
 
       <iframe class="video" width="574" height="318" src="https://www.youtube.com/embed/hv62y6BTa14"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -151,7 +178,7 @@
 
   <div class="third-block">
     <div class="container-2">
-      <h2 class="third-block-title">Сфера применения</h2>
+      <h2 class="h2-size third-block-title">Сфера применения</h2>
       <div class="engineering">
 
         <div class="civil">
@@ -295,147 +322,147 @@
         <div class="table-logo">
           <img src="image/logo-2.png" alt="" class="logo-table">
         </div>
-        <h2 class="green">Технические характеристики</h2>
+        <h2 class="h2-size green">Технические характеристики</h2>
 
         <table class="specifications">
           <tr class="title">
-            <td>Технические характеристики</td>
-            <td>Норматив</td>
-            <td>ПСБ - 20</td>
-            <td>ПСБ - 30</td>
-            <td>ПСБ - 40</td>
-            <td>ПСБ - 50</td>
-            <td>ПСБ - 60-120</td>
+            <td class="td-size td-title">Технические характеристики</td>
+            <td class="td-size td-title">Норматив</td>
+            <td class="td-size td-title">ПСБ - 20</td>
+            <td class="td-size td-title">ПСБ - 30</td>
+            <td class="td-size td-title">ПСБ - 40</td>
+            <td class="td-size td-title">ПСБ - 50</td>
+            <td class="td-size td-title">ПСБ - 60-120</td>
           </tr>
 
           <tr class="spec">
-            <td>Плотность кг/м3</td>
-            <td>ГОСТ 15588-86</td>
-            <td>30-32</td>
-            <td>30-32</td>
-            <td>30-32</td>
-            <td>30-32</td>
-            <td>30-32</td>
+            <td class="td-size">Плотность кг/м3</td>
+            <td class="td-size">ГОСТ 15588-86</td>
+            <td class="td-size">30-32</td>
+            <td class="td-size">30-32</td>
+            <td class="td-size">30-32</td>
+            <td class="td-size">30-32</td>
+            <td class="td-size">30-32</td>
           </tr>
 
           <tr class="spec">
-            <td>Теплопроводность при 25°С (λ25)</td>
-            <td>ГОСТ 7076-99</td>
-            <td>0,03</td>
-            <td>0,03</td>
-            <td>0,03</td>
-            <td>0,03</td>
-            <td>0,03</td>
+            <td class="td-size">Теплопроводность при 25°С (λ25)</td>
+            <td class="td-size">ГОСТ 7076-99</td>
+            <td class="td-size">0,03</td>
+            <td class="td-size">0,03</td>
+            <td class="td-size">0,03</td>
+            <td class="td-size">0,03</td>
+            <td class="td-size">0,03</td>
           </tr>
 
           <tr class="spec">
-            <td>Теплопроводность (λA) Вт/мК </td>
-            <td>ГОСТ 7076-99</td>
-            <td>0,031</td>
-            <td>0,031</td>
-            <td>0,031</td>
-            <td>0,031</td>
-            <td>0,031</td>
+            <td class="td-size">Теплопроводность (λA) Вт/мК </td>
+            <td class="td-size">ГОСТ 7076-99</td>
+            <td class="td-size">0,031</td>
+            <td class="td-size">0,031</td>
+            <td class="td-size">0,031</td>
+            <td class="td-size">0,031</td>
+            <td class="td-size">0,031</td>
           </tr>
 
           <tr class="spec">
-            <td>Теплопроводность (λБ) Вт/мК </td>
-            <td>ГОСТ 7076-99</td>
-            <td>0,032</td>
-            <td>0,032</td>
-            <td>0,032</td>
-            <td>0,032</td>
-            <td>0,032</td>
+            <td class="td-size">Теплопроводность (λБ) Вт/мК </td>
+            <td class="td-size">ГОСТ 7076-99</td>
+            <td class="td-size">0,032</td>
+            <td class="td-size">0,032</td>
+            <td class="td-size">0,032</td>
+            <td class="td-size">0,032</td>
+            <td class="td-size">0,032</td>
           </tr>
 
           <tr class="spec">
-            <td>Прочность на сжатие при 10% деформации, МПа</td>
-            <td>ГОСТ 15588-86</td>
-            <td>0,2</td>
-            <td>0,25</td>
-            <td>0,41</td>
-            <td>0,5</td>
-            <td>0,6</td>
+            <td class="td-size">Прочность на сжатие при 10% деформации, МПа</td>
+            <td class="td-size">ГОСТ 15588-86</td>
+            <td class="td-size">0,2</td>
+            <td class="td-size">0,25</td>
+            <td class="td-size">0,41</td>
+            <td class="td-size">0,5</td>
+            <td class="td-size">0,6</td>
           </tr>
 
           <tr class="spec">
-            <td>Предел прочности при изгибе, МПа</td>
-            <td>ГОСТ 15588-86</td>
-            <td>0,25</td>
-            <td>0,4</td>
-            <td>0,4</td>
-            <td>0,4 - 0,7</td>
-            <td>0,4 - 0,7</td>
+            <td class="td-size">Предел прочности при изгибе, МПа</td>
+            <td class="td-size">ГОСТ 15588-86</td>
+            <td class="td-size">0,25</td>
+            <td class="td-size">0,4</td>
+            <td class="td-size">0,4</td>
+            <td class="td-size">0,4 - 0,7</td>
+            <td class="td-size">0,4 - 0,7</td>
           </tr>
 
           <tr class="spec">
-            <td>Модуль упругости, МПА</td>
-            <td></td>
-            <td>15</td>
-            <td>15</td>
-            <td>18</td>
-            <td>18</td>
-            <td>18</td>
+            <td class="td-size">Модуль упругости, МПА</td>
+            <td class="td-size"></td>
+            <td class="td-size">15</td>
+            <td class="td-size">15</td>
+            <td class="td-size">18</td>
+            <td class="td-size">18</td>
+            <td class="td-size">18</td>
           </tr>
 
           <tr class="spec">
-            <td>Водопоглощение за 24 часа, % по объему </td>
-            <td>ГОСТ 15588-86</td>
-            <td>0,4</td>
-            <td>0,4</td>
-            <td>0,4</td>
-            <td>0,4</td>
-            <td>0,4</td>
+            <td class="td-size">Водопоглощение за 24 часа, % по объему </td>
+            <td class="td-size">ГОСТ 15588-86</td>
+            <td class="td-size">0,4</td>
+            <td class="td-size">0,4</td>
+            <td class="td-size">0,4</td>
+            <td class="td-size">0,4</td>
+            <td class="td-size">0,4</td>
           </tr>
 
           <tr class="spec">
-            <td>Паропроницаемость (μ) мг/м·ч·Па</td>
-            <td>ГОСТ 25898-83</td>
-            <td>0,008</td>
-            <td>0,007</td>
-            <td>0,007</td>
-            <td>0,007</td>
-            <td>0,008</td>
+            <td class="td-size">Паропроницаемость (μ) мг/м·ч·Па</td>
+            <td class="td-size">ГОСТ 25898-83</td>
+            <td class="td-size">0,008</td>
+            <td class="td-size">0,007</td>
+            <td class="td-size">0,007</td>
+            <td class="td-size">0,007</td>
+            <td class="td-size">0,008</td>
           </tr>
 
           <tr class="spec">
-            <td>Капилярное увлажнение</td>
-            <td></td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
+            <td class="td-size">Капилярное увлажнение</td>
+            <td class="td-size"></td>
+            <td class="td-size">0</td>
+            <td class="td-size">0</td>
+            <td class="td-size">0</td>
+            <td class="td-size">0</td>
+            <td class="td-size">0</td>
           </tr>
 
           <tr class="spec">
-            <td>Коэфициент линейного теплового расширения</td>
-            <td></td>
-            <td>7x10-5</td>
-            <td>7x10-5</td>
-            <td>7x10-5</td>
-            <td>7x10-5</td>
-            <td>7x10-5</td>
+            <td class="td-size">Коэфициент линейного теплового расширения</td>
+            <td class="td-size"></td>
+            <td class="td-size">7x10-5</td>
+            <td class="td-size">7x10-5</td>
+            <td class="td-size">7x10-5</td>
+            <td class="td-size">7x10-5</td>
+            <td class="td-size">7x10-5</td>
           </tr>
 
           <tr class="spec">
-            <td>Пожарные характеристики</td>
-            <td>ГОСТ 30244-94</td>
-            <td>Г1</td>
-            <td>Г1</td>
-            <td>Г1</td>
-            <td>Г1</td>
-            <td>Г1</td>
+            <td class="td-size">Пожарные характеристики</td>
+            <td class="td-size">ГОСТ 30244-94</td>
+            <td class="td-size">Г1</td>
+            <td class="td-size">Г1</td>
+            <td class="td-size">Г1</td>
+            <td class="td-size">Г1</td>
+            <td class="td-size">Г1</td>
           </tr>
 
           <tr class="spec">
-            <td>Температура применения, °С</td>
-            <td></td>
-            <td>-50...+75</td>
-            <td>-50...+75</td>
-            <td>-50...+75</td>
-            <td>-50...+75</td>
-            <td>-50...+75</td>
+            <td class="td-size">Температура применения, °С</td>
+            <td class="td-size"></td>
+            <td class="td-size">-50...+75</td>
+            <td class="td-size">-50...+75</td>
+            <td class="td-size">-50...+75</td>
+            <td class="td-size">-50...+75</td>
+            <td class="td-size">-50...+75</td>
           </tr>
 
         </table>
@@ -445,7 +472,7 @@
 
   <div class="fifth-block">
     <div class="container-1">
-      <h2 class="green">Какие задачи решает?</h2>
+      <h2 class="h2-size green">Какие задачи решает?</h2>
 
       <table class="pros-and-cons">
 
@@ -529,7 +556,7 @@
     <div class="container-1">
       <img src="image/logo-2.png" alt="" class="awards-logo">
 
-      <h2 class="blue">Cертификаты качества И ПРЕМИИ</h2>
+      <h2 class="h2-size blue">Cертификаты качества И ПРЕМИИ</h2>
 
       <div class="awards-list">
         <div class="award">
@@ -564,7 +591,7 @@
   <div class="container-2">
 
     <div class="contacts">
-      <h2 class="contacts-title">Контакты</h2>
+      <h2 class="h2-size contacts-title">Контакты</h2>
       <span class="contacts-about">ООО «Производственно коммерческая фирма «Элит Пласт» <br>
         73000, Украина, г. Херсон, ул Советская, 41-А</span>
       <p class="contacts-phone-mail">
@@ -592,7 +619,7 @@
             <img src="image/small-white-logo.png" alt="">
           </a>
 
-          <h2 class="white">NovaBoard</h2>
+          <h2 class="h2-size white">NovaBoard</h2>
 
           <p class="year">2015 &copy;</p>
 
@@ -609,18 +636,16 @@
               <span class="wezom-creator">Разработка сайта — студия WEZOM</span>
             </a>
           </div>
-
-
         </div>
       </div>
     </div>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <link rel="stylesheet" href="css/slick/slick.css">
-  <link rel="stylesheet" href="css/slick/slick-theme.css">
-  <link rel="stylesheet" href="css/award-slider.css">
-  <script src="css/slick/slick.min.js"></script>
+  <!-- <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/award-slider.css"> -->
+  <script src="js/slick.min.js"></script>
   <script src="js/award-slider.js"></script>
   <script src="js/scripts.js"></script>
 
